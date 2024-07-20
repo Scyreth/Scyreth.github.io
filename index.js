@@ -8,6 +8,7 @@ function randomize(def, target) {
     clearInterval(interval);
 
     interval = setInterval(() => {
+        console.log("interval running");
         target.innerText = target.innerText
             .split("")
             .map((_letter, index) => {
