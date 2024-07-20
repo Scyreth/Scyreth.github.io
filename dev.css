@@ -1,24 +1,23 @@
 h1 {
-    font-family: "Quattrocento", serif;
+    font-family: 'Space Mono', monospace;
     font-size: clamp(3rem, 10vw, 10rem);
-    color: black;
+    color: white;
     text-align: center;
 }
 
 .navbar {
-    font-family: "Quattrocento", serif;
+    font-family: 'Space Mono', monospace;
     font-size: clamp(1rem, 3vw, 3rem);
-    color:black;
+    color:white;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
 
 .divider {
-    background-color: black;
+    background-color: white;
     width: max(1vh, 1vw);
     height: max(1vh, 1vw);
-    border-radius: 1px;
 }
 
 body {
@@ -26,7 +25,7 @@ body {
     justify-content: center;
     align-items: flex-start;
     height: 100vh;
-    background-color: white;
+    background-color: rgb(20, 20, 20);
     margin: 0;
     overflow: hidden;
 }
