@@ -1,4 +1,4 @@
-const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
 
 let interval = null;
 
@@ -16,7 +16,7 @@ function randomize(def, target) {
                     return def[index];
                 }
 
-                return letters[Math.floor(Math.random() * 26)]
+                return letters[Math.floor(Math.random() * 62)]
             })
             .join("");
 

@@ -16,8 +16,8 @@ h1 {
 
 .divider {
     background-color: white;
-    width: 0.5rem;
-    height: 0.5rem;
+    width: 1vh;
+    height: 1vh;
 }
 
 body {
