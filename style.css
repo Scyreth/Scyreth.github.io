@@ -2,6 +2,7 @@ h1 {
     font-family: 'Space Mono', monospace;
     font-size: clamp(3rem, 10vw, 10rem);
     color: white;
+    text-align: center;
 }
 
 .navbar {
