@@ -11,8 +11,8 @@ function randomize(def, target) {
         console.log("interval running");
         target.innerText = target.innerText
             .split("")
-            .map((_letter, index) => {
-                if (index < iteration) {
+            .map((letter, index) => {
+                if (index < iteration || letter == " ") {
                     return def[index];
                 }
 
